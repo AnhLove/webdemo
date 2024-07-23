@@ -1,0 +1,27 @@
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Chia thành 4 cột bằng nhau */
+    gap: 20px; /* Khoảng cách giữa các cột */
+}
+
+.image {
+    overflow: hidden; /* Ảnh không bị tràn ra ngoài */
+}
+
+.image img {
+    width: 100%; /* Đảm bảo ảnh lấp đầy phần nội dung của div */
+    height: auto; /* Để ảnh tự động tính chiều cao */
+}
+
+.row1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Chia thành 3 cột bằng nhau */
+    gap: 20px; /* Khoảng cách giữa các cột */
+    padding: 10px;
+}
+
+.row2{
+    display: grid;
+    gap: 20px; /* Khoảng cách giữa các cột */
+}
+
